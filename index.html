@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="css/phonebook.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <div class="container"> <br>
+        <section class="add-contact">
+            
+            <h1>Join The Matrix</h1>
+        
+            
+            <form id="contact-input-form">
+                <input type="text" id = "nameInput" placeholder="Name">
+                <input type="tel" id= "telInput" placeholder="Phone">
+                <button type="button" id="createButton">+</button>
+            </form>
+        </section>
+    
+        <section class="contacts">  
+            <p id="validation-msg"></p>
+            <ul id="contactList"></ul>
+        </section><script src="js/phonebook.js"></script>
+
+        <footer>
+        <p id="text">Click phone to connect</p> <br>
+        <img id="img" onmouseover="playAudio()" onmouseout="stopAudio()" src="img/greenphone.png" alt="">
+        <p>&copy; 2023</p>
+        <p>Alinde Öst</p>
+        <br>
+        </footer>
+    </div>
+</body>
+</html>
