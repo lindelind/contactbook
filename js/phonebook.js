@@ -80,26 +80,12 @@ function displayContact(inputName, inputPhone){
     
     displayPhone.id = 'inputPhone' + contactId;
 
-    // let removeBtn = document.createElement('button');
-    // removeBtn.textContent = "Radera";
-    // removeBtn.id = 'removeBtn';
-    // removeBtn.addEventListener('click', function () {
-    //     removeContact(contactElement.id);
-    // });
-
     let removeBtn = document.createElement('img');
     removeBtn.src = "delete.png";
     removeBtn.id = 'removeBtn';
     removeBtn.addEventListener('click', function () {
         removeContact(contactElement.id);
     });
-
-    // let updateBtn = document.createElement('button');
-    // updateBtn.textContent = "Ändra";
-    // updateBtn.id = 'updateBtn' + contactId;
-    // updateBtn.addEventListener('click', function () {
-    //     beginUpdateContact(displayName.id, displayPhone.id, updateBtn.id);
-    // });
 
     let updateBtn = document.createElement('img');
     updateBtn.src = "edit.png";
