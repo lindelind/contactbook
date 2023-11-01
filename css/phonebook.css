@@ -212,3 +212,12 @@ footer img {
         margin: 0 auto;
     }
 }
+
+
+@media  (max-width: 768px) {
+
+    button:hover {
+        transform:none;
+    }
+    
+}
